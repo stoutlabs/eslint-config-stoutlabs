@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stoutlabs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My ESLint and Prettier Config. Based on the config from Wes Bos, but with updated packages and a few rule tweaks and additions to match my own preferences.",
   "keywords": [
     "javascript",

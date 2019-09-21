@@ -132,6 +132,22 @@ module.exports = {
         ]
       }
     ],
+    "jsx-a11y/label-has-associated-control": [
+      "error", 
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error", 
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/no-danger": [0],

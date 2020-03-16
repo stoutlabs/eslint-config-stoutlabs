@@ -40,11 +40,9 @@
     "eslint-plugin-react-hooks": "^2.3.0",
     "prettier": "^1.19.1"
   },
-  {
-    "resolutions": {
+  "resolutions": {
       "acorn": "^7.1.1",
       "minimist": ">=1.2.2"
-    }
   },
   "scripts": {
     "lint": "eslint .",

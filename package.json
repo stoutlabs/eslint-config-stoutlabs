@@ -42,7 +42,7 @@
   },
   "resolutions": {
     "acorn": ">=7.1.1",
-    "minimist": ">=1.2.5"
+    "minimist": ">=0.2.1"
   },
   "scripts": {
     "lint": "eslint .",

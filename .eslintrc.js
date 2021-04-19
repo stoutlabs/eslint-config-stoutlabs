@@ -1,71 +1,59 @@
 module.exports = {
-  "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react"
-  ],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    "ecmaFeatures": {
-      "impliedStrict": true,
-      "classes": true
-    }
+  extends: ["airbnb", "prettier"],
+  parser: "babel-eslint",
+  parserOptions: {
+    ecmaVersion: 2018,
+    ecmaFeatures: {
+      impliedStrict: true,
+      classes: true,
+    },
   },
-  "env": {
-    "browser": true,
-    "node": true,
-    "jquery": true,
-    "jest": true
+  env: {
+    browser: true,
+    node: true,
+    jquery: true,
+    jest: true,
   },
-  "rules": {
+  rules: {
     "no-debugger": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,
-    "no-console": [
-      "error", { allow: ["warn", "error"] }
-    ],
-    "no-return-assign": [
-      "error",
-      "except-parens"
-    ],
+    "no-console": ["error", { allow: ["warn", "error"] }],
+    "no-return-assign": ["error", "except-parens"],
     "no-restricted-syntax": [
       2,
       "ForInStatement",
       "LabeledStatement",
-      "WithStatement"
+      "WithStatement",
     ],
     "no-unused-vars": [
       1,
       {
-        "ignoreRestSiblings": true,
-        "argsIgnorePattern": "res|next|^err"
-      }
+        ignoreRestSiblings: true,
+        argsIgnorePattern: "res|next|^err",
+      },
     ],
     "prefer-const": [
       "error",
       {
-        "destructuring": "all",
-      }
+        destructuring: "all",
+      },
     ],
-    "arrow-body-style": [
-      2,
-      "as-needed"
-    ],
+    "arrow-body-style": [2, "as-needed"],
     "no-unused-expressions": [
       2,
       {
-        "allowTaggedTemplates": true
-      }
+        allowTaggedTemplates: true,
+      },
     ],
     "no-param-reassign": [
       2,
       {
-        "props": false
-      }
+        props: false,
+      },
     ],
     "import/prefer-default-export": 0,
-    "import": 0,
+    import: 0,
     "func-names": 0,
     "space-before-function-paren": 0,
     "comma-dangle": 0,
@@ -84,69 +72,57 @@ module.exports = {
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
-      }
+        extensions: [".js", ".jsx"],
+      },
     ],
-    "radix": 0,
+    radix: 0,
     "no-shadow": [
       2,
       {
-        "hoist": "all",
-        "allow": [
-          "resolve",
-          "reject",
-          "done",
-          "next",
-          "err",
-          "error"
-        ]
-      }
+        hoist: "all",
+        allow: ["resolve", "reject", "done", "next", "err", "error"],
+      },
     ],
-    "quotes": [
+    quotes: [
       2,
       "double",
       {
-        "avoidEscape": true,
-        "allowTemplateLiterals": true
-      }
+        avoidEscape: true,
+        allowTemplateLiterals: true,
+      },
     ],
     "prettier/prettier": [
       "error",
       {
-        "endOfLine": "auto",
-        "semi": true,
-        "singleQuote": false,
-        "tabWidth": 2,
-        "trailingComma": "es5"
-      }
+        endOfLine: "auto",
+        semi: true,
+        singleQuote: false,
+        tabWidth: 2,
+        trailingComma: "es5",
+      },
     ],
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": [
       "warn",
       {
-        "aspects": [
-          "invalidHref"
-        ]
-      }
+        aspects: ["invalidHref"],
+      },
     ],
     "jsx-a11y/label-has-associated-control": [
-      "error", 
+      "error",
       {
-        "required": {
-          "some": ["nesting", "id"]
-        }
-      }
+        required: {
+          some: ["nesting", "id"],
+        },
+      },
     ],
     "jsx-a11y/label-has-for": [
-      "error", 
+      "error",
       {
-        "required": {
-          "some": ["nesting", "id"]
-        }
-      }
+        required: {
+          some: ["nesting", "id"],
+        },
+      },
     ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -156,17 +132,13 @@ module.exports = {
     "react/destructuring-assignment": [1],
     "no-nested-ternary": [0],
     "no-plusplus": [0],
-    "camelcase": [0],
+    camelcase: [0],
     "react/prop-types": [
       1,
       {
-        "skipUndeclared": true
-      }
+        skipUndeclared: true,
+      },
     ],
   },
-  "plugins": [
-    "html",
-    "prettier",
-    "react-hooks"
-  ]
-}
+  plugins: ["html", "prettier", "react-hooks"],
+};

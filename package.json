@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stoutlabs",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "My ESLint and Prettier Config. Based on the config from Wes Bos, but with updated packages and a few rule tweaks and additions to match my own preferences.",
   "keywords": [
     "javascript",
@@ -16,29 +16,29 @@
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.4.0"
+    "prettier": "^2.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.4.0"
+    "prettier": "^2.4.1"
   },
   "resolutions": {
     "acorn": ">=7.1.1",

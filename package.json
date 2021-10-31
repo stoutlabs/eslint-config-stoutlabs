@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stoutlabs",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "My ESLint and Prettier Config. Based on the config from Wes Bos, but with updated packages and a few rule tweaks and additions to match my own preferences.",
   "keywords": [
     "javascript",
@@ -15,9 +15,13 @@
   "author": "Daniel Stout <daniel@stoutlabs.com>",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "<8.0.0",
+    "@babel/core": "^7.16.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.2",
@@ -25,12 +29,19 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4",
+    "@babel/eslint-parser": "^7.16.0",
+    "@babel/preset-react": "^7.16.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "<8.0.0",
+    "@babel/core": "^7.16.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.2",
@@ -38,11 +49,10 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.4.1"
-  },
-  "resolutions": {
-    "acorn": ">=7.1.1",
-    "minimist": ">=0.2.1"
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4",
+    "@babel/eslint-parser": "^7.16.0",
+    "@babel/preset-react": "^7.16.0"
   },
   "scripts": {
     "lint": "eslint .",

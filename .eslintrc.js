@@ -1,11 +1,10 @@
 module.exports = {
   extends: ["airbnb", "plugin:prettier/recommended"],
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   parserOptions: {
-    ecmaVersion: 2018,
-    ecmaFeatures: {
-      impliedStrict: true,
-      classes: true,
+    requireConfigFile: false,
+    babelOptions: {
+      presets: ["@babel/preset-react"],
     },
   },
   env: {
@@ -72,7 +71,7 @@ module.exports = {
     "react/jsx-filename-extension": [
       1,
       {
-        extensions: [".js", ".jsx"],
+        extensions: [".js", ".jsx", ".ts", ".tsx", ".mdx"],
       },
     ],
     radix: 0,
